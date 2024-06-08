@@ -1,11 +1,11 @@
-22467048139210562
+22473919263410856
 1-28-LCD-Touch
 1.28LCD-TP
 
 
 0
-0
-0
+17
+16
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -54963,6 +54963,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+EVQ-PSD02K
+EVQ-PSD02K
+
+
+0
+4
+2
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -65113,6 +65120,27 @@ Mounting 4.5mm 9774100982
 0
 8
 1
+NPM1100-QDAA-R7
+QFN24_NPM1100_NOR
+
+NPM1100-QDAA-R7 
+0
+25
+25
+NPM1100-QDAA-R7
+QFN24_NPM1100_NOR-L
+
+NPM1100-QDAA-R7 
+0
+25
+25
+NPM1100-QDAA-R7
+QFN24_NPM1100_NOR-M
+
+NPM1100-QDAA-R7 
+0
+25
+25
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads

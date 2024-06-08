@@ -56,7 +56,7 @@
         )
       )
     )
-    (symbol "Sensor_Motion:LIS3DH" (in_bom yes) (on_board yes)
+    (symbol "LIS3DH_1" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -7.62 11.43 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -78,13 +78,13 @@
       (property "ki_fp_filters" "LGA*3x3mm*P0.5mm*LayoutBorder3x5y*" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "LIS3DH_0_1"
+      (symbol "LIS3DH_1_0_1"
         (rectangle (start -10.16 10.16) (end 10.16 -12.7)
           (stroke (width 0.254) (type default))
           (fill (type background))
         )
       )
-      (symbol "LIS3DH_1_1"
+      (symbol "LIS3DH_1_1_1"
         (pin power_in line (at -2.54 12.7 270) (length 2.54)
           (name "VDD_IO" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -97,7 +97,7 @@
           (name "INT1" (effects (font (size 1.27 1.27))))
           (number "11" (effects (font (size 1.27 1.27))))
         )
-        (pin power_in line (at 0 -15.24 90) (length 2.54)
+        (pin passive line (at 0 -15.24 90) (length 2.54) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "12" (effects (font (size 1.27 1.27))))
         )
@@ -129,7 +129,7 @@
           (name "SCL/SPC" (effects (font (size 1.27 1.27))))
           (number "4" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -15.24 90) (length 2.54) hide
+        (pin power_in line (at 0 -15.24 90) (length 2.54)
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "5" (effects (font (size 1.27 1.27))))
         )
@@ -449,7 +449,7 @@
   (symbol (lib_id "power:GND") (at 151.13 122.555 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 268fdb67-e92f-4bba-a4f1-4ef0c7687a59)
-    (property "Reference" "#PWR042" (at 151.13 128.905 0)
+    (property "Reference" "#PWR048" (at 151.13 128.905 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 151.13 127 0)
@@ -465,7 +465,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/5cd2a7de-33fe-4e4e-987a-f156d102a916"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR048") (unit 1)
         )
       )
     )
@@ -474,7 +474,7 @@
   (symbol (lib_id "Device:C") (at 160.02 86.36 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2a21367d-3f77-4a31-b43c-7864e8b5f45b)
-    (property "Reference" "C48" (at 160.02 78.74 90)
+    (property "Reference" "C50" (at 160.02 78.74 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100nF" (at 160.02 81.28 90)
@@ -491,7 +491,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/5cd2a7de-33fe-4e4e-987a-f156d102a916"
-          (reference "C48") (unit 1)
+          (reference "C50") (unit 1)
         )
       )
       (project "lis3dhtr_default"
@@ -502,10 +502,50 @@
     )
   )
 
+  (symbol (lib_name "LIS3DH_1") (lib_id "Sensor_Motion:LIS3DH") (at 151.13 101.6 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 3c602657-c352-4fca-b232-e27ae41d0fe4)
+    (property "Reference" "U7" (at 153.3241 116.84 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "LIS3DH" (at 153.3241 119.38 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Package_LGA:LGA-16_3x3mm_P0.5mm_LayoutBorder3x5y" (at 153.67 128.27 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.st.com/resource/en/datasheet/cd00274221.pdf" (at 146.05 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "15" (uuid dfd52202-ce2c-4109-9110-0343200bc656))
+    (pin "8" (uuid a4f81c7a-b3a5-460c-9ff4-2b335805381c))
+    (pin "12" (uuid d66a5083-35a4-45fc-80ff-9ea3b399c50a))
+    (pin "14" (uuid 6529eabb-9ec7-4cfa-9a31-e67fd141e93c))
+    (pin "5" (uuid 198efd29-b9b5-4fac-87c1-e971264661b3))
+    (pin "10" (uuid 5734e71c-b9f5-46ac-a977-f9cd930a3c0a))
+    (pin "7" (uuid a2ee81d8-bfa3-403e-85a4-ff70709ed050))
+    (pin "6" (uuid 5b1217a6-0b6f-435a-bb39-f2e8a24c2a5b))
+    (pin "9" (uuid bf7559cc-6285-4328-9a4f-b5917760cb6c))
+    (pin "2" (uuid a6b0b5e1-5bc4-4b47-911f-a48294c7b394))
+    (pin "4" (uuid 9d5795b8-73c4-4e9a-8012-68def5f4d441))
+    (pin "1" (uuid 46dfd7a5-6c37-48a5-ae9a-f45b7a681814))
+    (pin "3" (uuid bf95c408-5ee7-4812-82ea-a5273b5c6f17))
+    (pin "13" (uuid 9471abfe-83a9-4ea9-953c-becaa2fcd6bc))
+    (pin "11" (uuid 80857243-8cab-41d1-9ae5-8f086df0ec09))
+    (pin "16" (uuid a8938be8-57df-45aa-aa94-07af28bec675))
+    (instances
+      (project "DualWatch"
+        (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/5cd2a7de-33fe-4e4e-987a-f156d102a916"
+          (reference "U7") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:+3V3") (at 153.67 70.485 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 47bcf08e-82e9-4cba-8794-1878c2afdc13)
-    (property "Reference" "#PWR041" (at 153.67 74.295 0)
+    (property "Reference" "#PWR049" (at 153.67 74.295 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 153.67 66.04 0)
@@ -521,7 +561,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/5cd2a7de-33fe-4e4e-987a-f156d102a916"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR049") (unit 1)
         )
       )
     )
@@ -530,7 +570,7 @@
   (symbol (lib_id "power:+3V3") (at 130.175 111.76 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 77b288d0-0125-4762-a7a3-3d958b69ad4c)
-    (property "Reference" "#PWR012" (at 130.175 107.95 0)
+    (property "Reference" "#PWR045" (at 130.175 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 130.175 116.205 0)
@@ -546,7 +586,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/5cd2a7de-33fe-4e4e-987a-f156d102a916"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
     )
@@ -555,7 +595,7 @@
   (symbol (lib_id "power:GND") (at 170.18 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 90bc70dc-cf9a-44b1-8411-b02515427b92)
-    (property "Reference" "#PWR044" (at 170.18 95.25 0)
+    (property "Reference" "#PWR051" (at 170.18 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 170.18 93.345 0)
@@ -571,52 +611,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/5cd2a7de-33fe-4e4e-987a-f156d102a916"
-          (reference "#PWR044") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Sensor_Motion:LIS3DH") (at 151.13 101.6 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b77d932a-1563-4149-8985-16436fcbbe83)
-    (property "Reference" "U5" (at 153.1494 117.475 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "LIS3DH" (at 153.1494 120.015 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Package_LGA:LGA-16_3x3mm_P0.5mm_LayoutBorder3x5y" (at 153.67 128.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.st.com/resource/en/datasheet/cd00274221.pdf" (at 146.05 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid dfe02f53-f7e6-46d0-a79c-6c60363ae657))
-    (pin "10" (uuid da9d2614-7f4b-4973-a98c-bb1c23e64af0))
-    (pin "11" (uuid b2be879d-9a85-49a8-a59f-ca4295d948cf))
-    (pin "12" (uuid d4dbce53-aced-43ea-b77b-b9fdd93da651))
-    (pin "13" (uuid d3136ab7-a5c6-4ed8-a7e8-f8f621a0dabb))
-    (pin "14" (uuid f3945d6d-65d1-44f3-9d17-aca9309038b9))
-    (pin "15" (uuid 3b14131e-854f-43d8-a241-b15fb4042970))
-    (pin "16" (uuid 0631ec2a-13da-4fb0-9de7-58ad10465afc))
-    (pin "2" (uuid 6e741b08-722e-4ff9-a09b-b5195af60227))
-    (pin "3" (uuid 13b89cc7-c6af-44bb-b1bd-b6c0db04b9a6))
-    (pin "4" (uuid aa799542-c71e-4ae9-ae38-79363cba144e))
-    (pin "5" (uuid 850ab8ff-8198-4fa8-8fa2-d498acb72198))
-    (pin "6" (uuid 0e40b9e7-c80c-4767-8af6-b453bca0846c))
-    (pin "7" (uuid 945ff261-4e7d-4b4b-bdca-1865df8ee0a7))
-    (pin "8" (uuid 962f31d6-9bb9-43ea-9d9a-1ccaf3726379))
-    (pin "9" (uuid eee894d2-2231-4287-a872-15267633c690))
-    (instances
-      (project "DualWatch"
-        (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/5cd2a7de-33fe-4e4e-987a-f156d102a916"
-          (reference "U5") (unit 1)
-        )
-      )
-      (project "lis3dhtr_default"
-        (path "/b2685f9a-e85c-4296-8363-23afe10ab821"
-          (reference "U1") (unit 1)
+          (reference "#PWR051") (unit 1)
         )
       )
     )
@@ -625,7 +620,7 @@
   (symbol (lib_id "power:+1V8") (at 148.59 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c15a79e2-f1c4-447d-8a17-87ebf9293d91)
-    (property "Reference" "#PWR049" (at 148.59 78.74 0)
+    (property "Reference" "#PWR047" (at 148.59 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 148.59 70.485 0)
@@ -641,7 +636,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/5cd2a7de-33fe-4e4e-987a-f156d102a916"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
       )
     )
@@ -650,7 +645,7 @@
   (symbol (lib_id "power:+3V3") (at 172.085 101.6 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c4fc28cb-04a8-405c-a87d-0dab4ba125b0)
-    (property "Reference" "#PWR045" (at 168.275 101.6 0)
+    (property "Reference" "#PWR052" (at 168.275 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 175.26 101.6 90)
@@ -666,7 +661,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/5cd2a7de-33fe-4e4e-987a-f156d102a916"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR052") (unit 1)
         )
       )
     )
@@ -675,7 +670,7 @@
   (symbol (lib_id "Device:C") (at 142.875 82.55 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c947d4c6-2d08-4e66-a469-25a4cc31ef15)
-    (property "Reference" "C46" (at 142.875 74.93 90)
+    (property "Reference" "C48" (at 142.875 74.93 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100nF" (at 142.875 77.47 90)
@@ -692,7 +687,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/5cd2a7de-33fe-4e4e-987a-f156d102a916"
-          (reference "C46") (unit 1)
+          (reference "C48") (unit 1)
         )
       )
       (project "lis3dhtr_default"
@@ -706,7 +701,7 @@
   (symbol (lib_id "power:GND") (at 137.16 82.55 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dc5ac0cd-26a5-4a50-897c-7d17ce8051a1)
-    (property "Reference" "#PWR040" (at 130.81 82.55 0)
+    (property "Reference" "#PWR046" (at 130.81 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 133.35 82.55 90)
@@ -722,7 +717,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/5cd2a7de-33fe-4e4e-987a-f156d102a916"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
     )
@@ -731,7 +726,7 @@
   (symbol (lib_id "Device:C") (at 160.02 74.93 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eb46a7f0-e8bb-49fb-8b14-6a650750245c)
-    (property "Reference" "C47" (at 160.02 67.31 90)
+    (property "Reference" "C49" (at 160.02 67.31 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10uF" (at 160.02 69.85 90)
@@ -748,7 +743,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/5cd2a7de-33fe-4e4e-987a-f156d102a916"
-          (reference "C47") (unit 1)
+          (reference "C49") (unit 1)
         )
       )
       (project "lis3dhtr_default"
@@ -762,7 +757,7 @@
   (symbol (lib_id "power:GND") (at 168.275 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f83ef644-d599-4179-bd3c-c19363ba4ead)
-    (property "Reference" "#PWR043" (at 168.275 114.3 0)
+    (property "Reference" "#PWR050" (at 168.275 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 168.275 112.395 0)
@@ -778,7 +773,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/5cd2a7de-33fe-4e4e-987a-f156d102a916"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR050") (unit 1)
         )
       )
     )

@@ -3106,7 +3106,7 @@
   (symbol (lib_id "Device:C") (at 144.78 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0044f48c-a5bd-4012-abda-21ddf21631de)
-    (property "Reference" "C16" (at 148.59 181.61 0)
+    (property "Reference" "C18" (at 148.59 181.61 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 148.59 184.15 0)
@@ -3123,7 +3123,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "C16") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
     )
@@ -3132,13 +3132,13 @@
   (symbol (lib_id "Device:L") (at 201.168 261.62 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 02d997c0-fc84-49a8-bcbc-83d79366cbaa)
-    (property "Reference" "L5" (at 201.93 260.35 0)
+    (property "Reference" "L6" (at 201.93 260.35 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "8.2nH" (at 201.93 262.89 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Inductor_SMD:L_0603_1608Metric" (at 201.168 261.62 0)
+    (property "Footprint" "Inductor_SMD:L_0402_1005Metric" (at 201.168 261.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 201.168 261.62 0)
@@ -3149,7 +3149,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "L5") (unit 1)
+          (reference "L6") (unit 1)
         )
       )
     )
@@ -3184,7 +3184,7 @@
   (symbol (lib_id "power:GND") (at 201.168 268.605 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0dc8ae54-a58b-4466-a9b1-14a660729280)
-    (property "Reference" "#PWR023" (at 201.168 274.955 0)
+    (property "Reference" "#PWR025" (at 201.168 274.955 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 201.168 273.05 0)
@@ -3200,7 +3200,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -3260,7 +3260,7 @@
   (symbol (lib_id "Device:C") (at 85.09 183.515 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1a574536-c638-4e49-943c-37cd396689aa)
-    (property "Reference" "C49" (at 90.17 187.325 90)
+    (property "Reference" "C13" (at 90.17 187.325 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7uF" (at 85.09 187.325 90)
@@ -3277,7 +3277,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "C49") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -3286,7 +3286,7 @@
   (symbol (lib_id "Device:C") (at 169.545 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1bb889ca-32d3-41fa-8345-96174e577aa2)
-    (property "Reference" "C22" (at 173.355 181.61 0)
+    (property "Reference" "C24" (at 173.355 181.61 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 173.355 184.15 0)
@@ -3303,7 +3303,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "C22") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
     )
@@ -3443,13 +3443,13 @@
   (symbol (lib_id "Device:C") (at 144.78 172.085 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 30ff3c25-4d1a-46cf-abf7-a7ae18a5b141)
-    (property "Reference" "C15" (at 148.59 170.815 0)
+    (property "Reference" "C17" (at 148.59 170.815 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 148.59 173.355 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 145.7452 175.895 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 145.7452 175.895 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 144.78 172.085 0)
@@ -3460,7 +3460,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "C15") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -3494,7 +3494,7 @@
   (symbol (lib_id "Device:C") (at 68.58 184.15 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 393c2fc6-667f-45ea-a3e1-33ec69e4c0e1)
-    (property "Reference" "C11" (at 65.405 179.705 90)
+    (property "Reference" "C7" (at 65.405 179.705 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1uF" (at 65.405 181.61 90)
@@ -3511,7 +3511,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "C11") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -3520,7 +3520,7 @@
   (symbol (lib_id "Device:C") (at 180.34 262.255 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3a3089f9-0900-492d-b948-81d3ebc1a3ff)
-    (property "Reference" "C23" (at 184.15 260.985 0)
+    (property "Reference" "C25" (at 184.15 260.985 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "NC" (at 184.15 263.525 0)
@@ -3537,7 +3537,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "C23") (unit 1)
+          (reference "C25") (unit 1)
         )
       )
     )
@@ -3546,13 +3546,13 @@
   (symbol (lib_id "Device:C") (at 97.79 201.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3ae7dcc6-3cf3-430b-bad2-ce8c579fb2e6)
-    (property "Reference" "C13" (at 100.965 200.66 0)
+    (property "Reference" "C15" (at 100.965 200.66 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 100.965 203.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 98.7552 205.74 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 98.7552 205.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 97.79 201.93 0)
@@ -3563,7 +3563,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "C13") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -3572,7 +3572,7 @@
   (symbol (lib_id "Device:C") (at 169.545 172.085 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3f117f6d-4c99-4597-98f5-1b10fdc61466)
-    (property "Reference" "C21" (at 173.355 170.815 0)
+    (property "Reference" "C23" (at 173.355 170.815 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 173.355 173.355 0)
@@ -3589,7 +3589,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "C21") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
     )
@@ -3598,7 +3598,7 @@
   (symbol (lib_id "power:GND") (at 79.375 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 43df5832-723a-4d22-9eeb-41f9e1dc798a)
-    (property "Reference" "#PWR022" (at 79.375 191.77 0)
+    (property "Reference" "#PWR010" (at 79.375 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 79.375 189.865 0)
@@ -3614,7 +3614,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -3623,13 +3623,13 @@
   (symbol (lib_id "Device:C") (at 156.845 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 521821e2-425b-4f66-ba7f-9221f2b899d4)
-    (property "Reference" "C17" (at 160.02 160.02 0)
+    (property "Reference" "C19" (at 160.02 160.02 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 160.02 162.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 157.8102 165.1 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 157.8102 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 156.845 161.29 0)
@@ -3640,7 +3640,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "C17") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
     )
@@ -3649,7 +3649,7 @@
   (symbol (lib_id "power:GND") (at 191.77 165.735 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 554d9098-5f8d-46c3-8e84-b86db01ee8fe)
-    (property "Reference" "#PWR019" (at 198.12 165.735 0)
+    (property "Reference" "#PWR021" (at 198.12 165.735 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 195.58 165.735 90)
@@ -3665,7 +3665,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -3674,7 +3674,7 @@
   (symbol (lib_id "Device:C") (at 83.185 142.24 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 56ba54ae-8d28-4a6e-b5af-2b6ce96abdfb)
-    (property "Reference" "C8" (at 81.28 137.795 0)
+    (property "Reference" "C9" (at 81.28 137.795 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1uF" (at 83.185 137.16 0)
@@ -3691,7 +3691,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "C8") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -3767,7 +3767,7 @@
       )
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
       (project "rp2040_default_schematic"
@@ -4007,13 +4007,13 @@
   (symbol (lib_id "Device:C") (at 144.78 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 673e54a1-0d52-423f-bdbe-17433610e1d2)
-    (property "Reference" "C14" (at 148.59 160.02 0)
+    (property "Reference" "C16" (at 148.59 160.02 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 148.59 162.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 145.7452 165.1 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 145.7452 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 144.78 161.29 0)
@@ -4024,7 +4024,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "C14") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -4033,7 +4033,7 @@
   (symbol (lib_id "power:+1V8") (at 101.6 175.895 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 677aae27-7717-40b2-9ef2-8234c75cefdf)
-    (property "Reference" "#PWR07" (at 101.6 179.705 0)
+    (property "Reference" "#PWR014" (at 101.6 179.705 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 101.6 172.085 0)
@@ -4049,7 +4049,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -4259,7 +4259,7 @@
   (symbol (lib_id "Device:L") (at 193.548 256.54 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6958caaa-1f34-483e-90fd-d2fc9ea63925)
-    (property "Reference" "L4" (at 193.548 251.46 90)
+    (property "Reference" "L5" (at 193.548 251.46 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "8.7nH" (at 193.548 254 90)
@@ -4276,7 +4276,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "L4") (unit 1)
+          (reference "L5") (unit 1)
         )
       )
     )
@@ -4311,7 +4311,7 @@
       )
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
       (project "rp2040_default_schematic"
@@ -4325,7 +4325,7 @@
   (symbol (lib_id "Device:L") (at 95.25 180.975 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 72fb8627-229c-4bea-8a31-1ae63f239298)
-    (property "Reference" "L12" (at 95.25 175.26 90)
+    (property "Reference" "L2" (at 95.25 175.26 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10uH" (at 95.25 177.8 90)
@@ -4342,7 +4342,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "L12") (unit 1)
+          (reference "L2") (unit 1)
         )
       )
     )
@@ -4474,7 +4474,7 @@
     (property "Value" "1uF" (at 261.62 228.6 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 258.7752 232.41 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 258.7752 232.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 257.81 228.6 0)
@@ -4495,7 +4495,7 @@
       )
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "C26") (unit 1)
+          (reference "C28") (unit 1)
         )
       )
       (project "rp2040_default_schematic"
@@ -4509,7 +4509,7 @@
   (symbol (lib_id "power:GND") (at 60.96 210.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7db003ad-d07a-4261-972a-eee3ff1fb61c)
-    (property "Reference" "#PWR06" (at 60.96 217.17 0)
+    (property "Reference" "#PWR07" (at 60.96 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 60.96 215.9 0)
@@ -4525,7 +4525,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -4534,7 +4534,7 @@
   (symbol (lib_id "power:+1V8") (at 99.06 253.365 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7e1d6a2f-bb0d-4e4e-b79f-f0bd980d712e)
-    (property "Reference" "#PWR052" (at 99.06 257.175 0)
+    (property "Reference" "#PWR012" (at 99.06 257.175 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 99.06 248.285 0)
@@ -4550,7 +4550,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -4559,13 +4559,13 @@
   (symbol (lib_id "Device:L") (at 174.625 256.54 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7e80560f-0d1b-4656-8c0d-a268b54d5494)
-    (property "Reference" "L3" (at 174.625 251.46 90)
+    (property "Reference" "L4" (at 174.625 251.46 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10uH" (at 174.625 254 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Inductor_SMD:L_0805_2012Metric" (at 174.625 256.54 0)
+    (property "Footprint" "Inductor_SMD:L_0603_1608Metric" (at 174.625 256.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 174.625 256.54 0)
@@ -4576,7 +4576,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "L3") (unit 1)
+          (reference "L4") (unit 1)
         )
       )
     )
@@ -4585,13 +4585,13 @@
   (symbol (lib_id "Device:C") (at 83.185 152.4 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7f91024b-e20d-45bb-9d03-661f0d14002c)
-    (property "Reference" "C9" (at 81.28 147.955 0)
+    (property "Reference" "C10" (at 81.28 147.955 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1uF" (at 83.185 147.32 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 79.375 153.3652 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 79.375 153.3652 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 83.185 152.4 0)
@@ -4602,7 +4602,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "C9") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -4665,7 +4665,7 @@
   (symbol (lib_id "power:GND") (at 143.51 267.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8c678814-03f3-4313-b577-5f1bb46b7ad2)
-    (property "Reference" "#PWR016" (at 143.51 274.32 0)
+    (property "Reference" "#PWR018" (at 143.51 274.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 143.51 272.415 0)
@@ -4681,7 +4681,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -4690,13 +4690,13 @@
   (symbol (lib_id "Device:L") (at 209.423 256.54 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8ce17376-6249-4237-b8bb-c7b6bd020b0d)
-    (property "Reference" "L6" (at 209.423 251.46 90)
+    (property "Reference" "L7" (at 209.423 251.46 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "6.8nH" (at 209.423 254 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Inductor_SMD:L_0402_1005Metric" (at 209.423 256.54 0)
+    (property "Footprint" "Inductor_SMD:L_0603_1608Metric" (at 209.423 256.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 209.423 256.54 0)
@@ -4707,7 +4707,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "L6") (unit 1)
+          (reference "L7") (unit 1)
         )
       )
     )
@@ -4917,7 +4917,7 @@
       )
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
       (project "QualityDeskController"
@@ -4936,7 +4936,7 @@
   (symbol (lib_id "power:GND") (at 191.77 188.595 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 950f9259-b43b-4e68-8b56-658d6951f464)
-    (property "Reference" "#PWR021" (at 198.12 188.595 0)
+    (property "Reference" "#PWR023" (at 198.12 188.595 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 194.945 188.595 90)
@@ -4952,7 +4952,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -4961,7 +4961,7 @@
   (symbol (lib_id "power:+1V8") (at 100.33 140.335 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9a3b8486-62fc-477b-9507-3f40c723f89c)
-    (property "Reference" "#PWR050" (at 100.33 144.145 0)
+    (property "Reference" "#PWR013" (at 100.33 144.145 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 100.33 135.255 0)
@@ -4977,7 +4977,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -5027,7 +5027,7 @@
   (symbol (lib_id "power:GND") (at 168.275 268.605 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a3ef2b11-5c3f-4938-a010-d373a9effb89)
-    (property "Reference" "#PWR017" (at 168.275 274.955 0)
+    (property "Reference" "#PWR019" (at 168.275 274.955 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 168.275 273.05 0)
@@ -5043,7 +5043,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -5052,7 +5052,7 @@
   (symbol (lib_id "power:GND") (at 180.34 268.605 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a6a3740b-85f2-4c0e-95c8-5a018817cab7)
-    (property "Reference" "#PWR018" (at 180.34 274.955 0)
+    (property "Reference" "#PWR020" (at 180.34 274.955 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 180.34 273.05 0)
@@ -5068,7 +5068,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -5077,7 +5077,7 @@
   (symbol (lib_id "Device:C") (at 73.025 201.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aab12089-28d2-4229-b963-ed31ddf9f468)
-    (property "Reference" "C7" (at 76.835 200.66 0)
+    (property "Reference" "C8" (at 76.835 200.66 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 76.835 203.2 0)
@@ -5094,7 +5094,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "C7") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -5129,7 +5129,7 @@
   (symbol (lib_id "Device:C") (at 181.61 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b131298f-eec1-4610-b921-11d7acff3433)
-    (property "Reference" "C25" (at 185.42 181.61 0)
+    (property "Reference" "C27" (at 185.42 181.61 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 185.42 184.15 0)
@@ -5146,7 +5146,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "C25") (unit 1)
+          (reference "C27") (unit 1)
         )
       )
     )
@@ -5181,7 +5181,7 @@
   (symbol (lib_id "power:GND") (at 191.77 176.53 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b7b54802-0fa4-4e5e-b73f-5c60d7e6ca15)
-    (property "Reference" "#PWR020" (at 198.12 176.53 0)
+    (property "Reference" "#PWR022" (at 198.12 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 194.945 176.53 90)
@@ -5197,7 +5197,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -5206,7 +5206,7 @@
   (symbol (lib_id "power:+1V8") (at 61.595 168.275 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b7c51f9d-a012-4e32-b89a-bc049ff5ae78)
-    (property "Reference" "#PWR011" (at 65.405 168.275 0)
+    (property "Reference" "#PWR08" (at 65.405 168.275 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 58.42 168.275 90)
@@ -5222,7 +5222,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -5231,7 +5231,7 @@
   (symbol (lib_id "power:GND") (at 143.51 198.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b87f1ea8-1c33-430b-9e80-a559ff9402a2)
-    (property "Reference" "#PWR014" (at 143.51 204.47 0)
+    (property "Reference" "#PWR016" (at 143.51 204.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 143.51 203.2 0)
@@ -5247,7 +5247,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -5256,7 +5256,7 @@
   (symbol (lib_id "power:GND") (at 60.96 184.15 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b9dcbc5f-d8c5-43f7-b735-6daaa4cc8fbc)
-    (property "Reference" "#PWR08" (at 54.61 184.15 0)
+    (property "Reference" "#PWR06" (at 54.61 184.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 57.15 184.15 90)
@@ -5272,7 +5272,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -5312,7 +5312,7 @@
       )
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
       (project "LinuxCore-v2"
@@ -5357,7 +5357,7 @@
     (property "Value" "220R" (at 234.95 276.86 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Inductor_SMD:L_0603_1608Metric" (at 234.95 279.4 0)
+    (property "Footprint" "Inductor_SMD:L_0805_2012Metric" (at 234.95 279.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 234.95 279.4 0)
@@ -5378,7 +5378,7 @@
       )
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "L7") (unit 1)
+          (reference "L8") (unit 1)
         )
       )
       (project "rp2040_default_schematic"
@@ -5392,13 +5392,13 @@
   (symbol (lib_id "Device:C") (at 85.725 201.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c166be01-b015-4c5d-81dc-e617661d2e7c)
-    (property "Reference" "C12" (at 89.535 200.66 0)
+    (property "Reference" "C14" (at 89.535 200.66 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 89.535 203.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 86.6902 205.74 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 86.6902 205.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 85.725 201.93 0)
@@ -5409,7 +5409,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "C12") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -5444,7 +5444,7 @@
   (symbol (lib_id "Device:C") (at 156.845 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c44405e3-ab97-46d1-b243-7fc5579836ce)
-    (property "Reference" "C19" (at 160.655 181.61 0)
+    (property "Reference" "C21" (at 160.655 181.61 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 160.655 184.15 0)
@@ -5461,7 +5461,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "C19") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
     )
@@ -5470,7 +5470,7 @@
   (symbol (lib_id "power:GND") (at 143.51 254 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c62a99fc-ea55-4fd6-ad69-356f93f7450a)
-    (property "Reference" "#PWR015" (at 143.51 247.65 0)
+    (property "Reference" "#PWR017" (at 143.51 247.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 143.51 249.555 0)
@@ -5486,7 +5486,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -5495,13 +5495,13 @@
   (symbol (lib_id "Device:C") (at 83.185 163.195 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c8716129-f8c9-4a8a-8dc2-5ff311d1a775)
-    (property "Reference" "C10" (at 81.28 158.75 0)
+    (property "Reference" "C11" (at 81.28 158.75 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2.2nF" (at 83.185 158.115 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 79.375 164.1602 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 79.375 164.1602 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 83.185 163.195 0)
@@ -5512,7 +5512,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "C10") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -5587,7 +5587,7 @@
   (symbol (lib_id "power:+1V8") (at 193.675 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d6151cbb-6804-4394-b3ae-8b7ca18aebbd)
-    (property "Reference" "#PWR051" (at 193.675 158.75 0)
+    (property "Reference" "#PWR024" (at 193.675 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 193.675 149.86 0)
@@ -5603,7 +5603,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -5638,7 +5638,7 @@
       )
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
       (project "rp2040_default_schematic"
@@ -5678,7 +5678,7 @@
       )
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
       (project "rp2040_default_schematic"
@@ -5692,7 +5692,7 @@
   (symbol (lib_id "power:+3V3") (at 101.6 184.785 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d8b4d2ed-c073-4b33-8411-f24033e46983)
-    (property "Reference" "#PWR013" (at 101.6 180.975 0)
+    (property "Reference" "#PWR015" (at 101.6 180.975 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 97.79 186.69 0)
@@ -5708,7 +5708,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -5717,7 +5717,7 @@
   (symbol (lib_id "Device:C") (at 156.845 172.085 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d9e2478d-4548-4814-a692-425561ea4ab2)
-    (property "Reference" "C18" (at 160.655 170.815 0)
+    (property "Reference" "C20" (at 160.655 170.815 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 160.655 173.355 0)
@@ -5734,7 +5734,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "C18") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
     )
@@ -5743,13 +5743,13 @@
   (symbol (lib_id "Device:C") (at 181.61 172.085 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ea25fa0e-7e3a-4996-94f4-59b8d7e5dea7)
-    (property "Reference" "C24" (at 185.42 170.815 0)
+    (property "Reference" "C26" (at 185.42 170.815 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 185.42 173.355 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 182.5752 175.895 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 182.5752 175.895 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 181.61 172.085 0)
@@ -5760,7 +5760,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "C24") (unit 1)
+          (reference "C26") (unit 1)
         )
       )
     )
@@ -5769,7 +5769,7 @@
   (symbol (lib_id "Device:C") (at 168.275 262.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f151ea91-24cb-47c9-ac00-f4645dce3347)
-    (property "Reference" "C20" (at 172.085 261.62 0)
+    (property "Reference" "C22" (at 172.085 261.62 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.7pF" (at 172.085 264.16 0)
@@ -5786,7 +5786,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "C20") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
     )
@@ -5795,13 +5795,13 @@
   (symbol (lib_id "Device:C") (at 85.09 178.435 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f351bd57-9bf2-4084-a2f9-314710feec67)
-    (property "Reference" "C50" (at 79.375 175.26 90)
+    (property "Reference" "C12" (at 79.375 175.26 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2.2uF" (at 84.455 175.26 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 88.9 177.4698 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 88.9 177.4698 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 85.09 178.435 0)
@@ -5812,7 +5812,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "C50") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -5821,7 +5821,7 @@
   (symbol (lib_id "Device:L") (at 95.885 158.115 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fb5e1848-b6e2-44e1-891e-ab06d2fcc14b)
-    (property "Reference" "L2" (at 95.885 153.035 90)
+    (property "Reference" "L3" (at 95.885 153.035 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10uH" (at 95.885 155.575 90)
@@ -5838,7 +5838,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/89be14d7-9b32-42ff-87d8-25b0cda320aa"
-          (reference "L2") (unit 1)
+          (reference "L3") (unit 1)
         )
       )
     )

@@ -477,6 +477,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -511,6 +519,14 @@
     [
       "0bf0a737-8514-45c4-bf4d-e1080d8b8831",
       "nPM1100"
+    ],
+    [
+      "138002f2-f65c-4360-b8bc-df7ea7e026b6",
+      "DC DC"
+    ],
+    [
+      "fa838c20-6d60-46ca-8c20-8f7bef4ad30f",
+      "Peripheral"
     ]
   ],
   "text_variables": {}
