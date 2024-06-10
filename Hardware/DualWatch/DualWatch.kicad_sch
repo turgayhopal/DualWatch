@@ -579,9 +579,9 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 35f57d18-659f-416a-9a70-cd294cb856fe)
     )
-    (pin "IOVDD" input (at 153.035 74.295 180)
+    (pin "VDDIO" input (at 153.035 74.295 180)
       (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 6adf28f0-da25-4119-9505-746d749b431b)
+      (uuid 36156e42-6e3b-4e8a-84cc-29827098e40a)
     )
     (instances
       (project "DualWatch"
