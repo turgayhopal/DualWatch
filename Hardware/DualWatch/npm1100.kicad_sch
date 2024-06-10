@@ -9,6 +9,7 @@
     (date "2024-06-07")
     (rev "v1.0.0")
     (comment 1 "Author Turgay Hopal")
+    (comment 2 "500mA Fixed Charging")
   )
 
   (lib_symbols
@@ -739,6 +740,8 @@
     (uuid f9bf6fab-9d60-4488-a648-6a5232a7b9a8)
   )
 
+  (no_connect (at 166.37 78.105) (uuid d22245e3-a334-49e4-948c-f06a68899359))
+
   (wire (pts (xy 178.435 105.41) (xy 178.435 107.315))
     (stroke (width 0) (type default))
     (uuid 004aff62-5017-4571-ba66-78f64b6562d1)
@@ -819,9 +822,9 @@
     (stroke (width 0) (type default))
     (uuid 3ac1221a-10ce-426b-84a0-a5f8d6c67452)
   )
-  (wire (pts (xy 169.545 78.105) (xy 166.37 78.105))
+  (wire (pts (xy 166.37 80.645) (xy 172.72 80.645))
     (stroke (width 0) (type default))
-    (uuid 3bf5e67e-ede8-42e8-b08e-fc9aa5a3a955)
+    (uuid 3c073b96-54fa-42ee-abb4-5e9661531760)
   )
   (wire (pts (xy 99.695 88.265) (xy 115.57 88.265))
     (stroke (width 0) (type default))
@@ -867,6 +870,10 @@
     (stroke (width 0) (type default))
     (uuid 6aabb008-6ed9-412a-b1d8-3b584d400e35)
   )
+  (wire (pts (xy 103.505 75.565) (xy 115.57 75.565))
+    (stroke (width 0) (type default))
+    (uuid 6adf8b42-4ee0-47b6-a5a5-2a28253ab435)
+  )
   (wire (pts (xy 105.41 93.345) (xy 115.57 93.345))
     (stroke (width 0) (type default))
     (uuid 6b753ad3-c7b1-44a8-bf7a-6667619909ec)
@@ -907,10 +914,6 @@
     (stroke (width 0) (type default))
     (uuid 95c3ed09-e610-431f-8cc3-030a6b9904f2)
   )
-  (wire (pts (xy 99.695 75.565) (xy 115.57 75.565))
-    (stroke (width 0) (type default))
-    (uuid 9850846c-efbd-4653-b28d-f90a7d0143cb)
-  )
   (wire (pts (xy 108.585 65.405) (xy 113.03 65.405))
     (stroke (width 0) (type default))
     (uuid 9fd1e9a5-3cc8-4763-9b7f-8d1435c03708)
@@ -918,6 +921,10 @@
   (wire (pts (xy 166.37 93.345) (xy 178.435 93.345))
     (stroke (width 0) (type default))
     (uuid ab6eccf2-c202-4c0c-9412-bc727b5a8237)
+  )
+  (wire (pts (xy 172.72 80.645) (xy 172.72 105.41))
+    (stroke (width 0) (type default))
+    (uuid b08a7c6a-52b0-4b4d-b5c0-2ad6bc5d0d14)
   )
   (wire (pts (xy 113.03 62.23) (xy 113.03 65.405))
     (stroke (width 0) (type default))
@@ -938,10 +945,6 @@
   (wire (pts (xy 189.865 105.41) (xy 199.39 105.41))
     (stroke (width 0) (type default))
     (uuid ca060977-ebe1-4ad2-a866-7e27392fa107)
-  )
-  (wire (pts (xy 169.545 80.645) (xy 166.37 80.645))
-    (stroke (width 0) (type default))
-    (uuid d0e18cef-0f8b-4772-aa25-d870fc591763)
   )
   (wire (pts (xy 115.57 67.945) (xy 113.03 67.945))
     (stroke (width 0) (type default))
@@ -987,6 +990,10 @@
     (stroke (width 0) (type default))
     (uuid f61bfec3-6ffe-412d-8dca-a5c796757ee2)
   )
+  (wire (pts (xy 172.72 105.41) (xy 178.435 105.41))
+    (stroke (width 0) (type default))
+    (uuid f8cea1cb-1995-43e1-ac8d-eaf51ddc056a)
+  )
   (wire (pts (xy 52.07 58.42) (xy 57.785 58.42))
     (stroke (width 0) (type default))
     (uuid f9b8c6aa-9210-4a3a-b49f-b9085b2fc8ca)
@@ -1000,6 +1007,10 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 94d76d58-a05e-43ae-82be-f146de98b1f2)
   )
+  (label "VSYS" (at 103.505 75.565 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid afdcf5cc-ea3a-416b-82fa-6bcee17b3675)
+  )
   (label "VSYS" (at 105.41 85.725 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e0110ae9-2742-4f34-9047-8ad28510b534)
@@ -1012,10 +1023,6 @@
   (hierarchical_label "CHG" (shape input) (at 99.695 83.185 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 1e4cad54-c131-4888-9714-caac0feb054e)
-  )
-  (hierarchical_label "USB-D+" (shape input) (at 169.545 78.105 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 2969cc8a-b957-4b60-bd0e-d284b3ab1899)
   )
   (hierarchical_label "BAT_MON" (shape input) (at 97.79 146.685 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
@@ -1037,17 +1044,9 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 7c52cc18-a095-4fc2-a118-3007e0b0aac9)
   )
-  (hierarchical_label "ISET" (shape input) (at 99.695 75.565 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid a8c26d3c-bc8e-4b1c-8910-794f406db60e)
-  )
   (hierarchical_label "CHG" (shape input) (at 63.5 78.105 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid b6553a71-4a46-4fda-89ac-07ce1ccfef0c)
-  )
-  (hierarchical_label "USB-D-" (shape input) (at 169.545 80.645 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid d67e5b30-2024-4008-b124-b59081502c3a)
   )
   (hierarchical_label "VBAT" (shape input) (at 37.465 169.545 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
@@ -1065,7 +1064,7 @@
   (symbol (lib_id "NPM1100-QDAA-R7:NPM1100-QDAA-R7") (at 115.57 65.405 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00a2abd5-f3a5-4bc0-8e26-e83925ece1de)
-    (property "Reference" "U20" (at 140.97 55.88 0)
+    (property "Reference" "U19" (at 140.97 55.88 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "NPM1100-QDAA-R7" (at 140.97 58.42 0)
@@ -1105,7 +1104,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/0bf0a737-8514-45c4-bf4d-e1080d8b8831"
-          (reference "U20") (unit 1)
+          (reference "U19") (unit 1)
         )
       )
     )
@@ -1140,7 +1139,7 @@
   (symbol (lib_id "power:VBUS") (at 210.82 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0f63ce6c-f268-4187-845a-b661c38b3d3c)
-    (property "Reference" "#PWR094" (at 210.82 86.36 0)
+    (property "Reference" "#PWR092" (at 210.82 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 210.82 77.47 0)
@@ -1156,7 +1155,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/0bf0a737-8514-45c4-bf4d-e1080d8b8831"
-          (reference "#PWR094") (unit 1)
+          (reference "#PWR092") (unit 1)
         )
       )
     )
@@ -1243,7 +1242,7 @@
   (symbol (lib_id "power:GND") (at 200.025 56.515 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 268fe7af-61a5-4e8b-81e1-0aa215a59733)
-    (property "Reference" "#PWR093" (at 200.025 50.165 0)
+    (property "Reference" "#PWR091" (at 200.025 50.165 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 200.025 52.07 0)
@@ -1259,7 +1258,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/0bf0a737-8514-45c4-bf4d-e1080d8b8831"
-          (reference "#PWR093") (unit 1)
+          (reference "#PWR091") (unit 1)
         )
       )
     )
@@ -1294,7 +1293,7 @@
   (symbol (lib_id "power:GND") (at 94.615 62.865 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2f5a0fdd-99dc-43ca-9d6f-defba152857b)
-    (property "Reference" "#PWR087" (at 94.615 56.515 0)
+    (property "Reference" "#PWR085" (at 94.615 56.515 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 94.615 57.785 0)
@@ -1310,7 +1309,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/0bf0a737-8514-45c4-bf4d-e1080d8b8831"
-          (reference "#PWR087") (unit 1)
+          (reference "#PWR085") (unit 1)
         )
       )
     )
@@ -1371,7 +1370,7 @@
   (symbol (lib_id "power:+1V8") (at 113.03 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3c28ef72-058a-4364-9c0b-dc1337b47eb6)
-    (property "Reference" "#PWR089" (at 113.03 66.04 0)
+    (property "Reference" "#PWR087" (at 113.03 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 113.03 57.785 0)
@@ -1387,7 +1386,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/0bf0a737-8514-45c4-bf4d-e1080d8b8831"
-          (reference "#PWR089") (unit 1)
+          (reference "#PWR087") (unit 1)
         )
       )
     )
@@ -1422,7 +1421,7 @@
   (symbol (lib_id "power:GND") (at 170.18 60.96 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4bd83678-9a4c-4141-baee-04f8dbe2134d)
-    (property "Reference" "#PWR090" (at 170.18 54.61 0)
+    (property "Reference" "#PWR088" (at 170.18 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 170.18 56.515 0)
@@ -1438,7 +1437,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/0bf0a737-8514-45c4-bf4d-e1080d8b8831"
-          (reference "#PWR090") (unit 1)
+          (reference "#PWR088") (unit 1)
         )
       )
     )
@@ -1447,7 +1446,7 @@
   (symbol (lib_id "power:GND") (at 92.075 159.385 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5ee19574-c496-471c-b6e7-783af0bfcc1e)
-    (property "Reference" "#PWR086" (at 92.075 165.735 0)
+    (property "Reference" "#PWR084" (at 92.075 165.735 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 92.075 163.83 0)
@@ -1463,7 +1462,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/0bf0a737-8514-45c4-bf4d-e1080d8b8831"
-          (reference "#PWR086") (unit 1)
+          (reference "#PWR084") (unit 1)
         )
       )
     )
@@ -1472,7 +1471,7 @@
   (symbol (lib_id "power:+1V8") (at 194.945 70.485 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 617a1b38-5cb4-424a-995a-e91985348438)
-    (property "Reference" "#PWR092" (at 194.945 74.295 0)
+    (property "Reference" "#PWR090" (at 194.945 74.295 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 194.945 66.04 0)
@@ -1488,7 +1487,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/0bf0a737-8514-45c4-bf4d-e1080d8b8831"
-          (reference "#PWR092") (unit 1)
+          (reference "#PWR090") (unit 1)
         )
       )
     )
@@ -1497,7 +1496,7 @@
   (symbol (lib_id "power:GND") (at 105.41 104.775 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 63909fb3-e7d5-447d-baaa-9f8f9138225a)
-    (property "Reference" "#PWR088" (at 105.41 111.125 0)
+    (property "Reference" "#PWR086" (at 105.41 111.125 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 105.41 109.22 0)
@@ -1513,7 +1512,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/0bf0a737-8514-45c4-bf4d-e1080d8b8831"
-          (reference "#PWR088") (unit 1)
+          (reference "#PWR086") (unit 1)
         )
       )
     )
@@ -1574,7 +1573,7 @@
   (symbol (lib_id "power:GND") (at 40.005 171.45 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 868871a9-a2f5-4743-a3dc-35faaf4aeb82)
-    (property "Reference" "#PWR085" (at 40.005 165.1 0)
+    (property "Reference" "#PWR083" (at 40.005 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 40.005 167.005 0)
@@ -1590,7 +1589,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/0bf0a737-8514-45c4-bf4d-e1080d8b8831"
-          (reference "#PWR085") (unit 1)
+          (reference "#PWR083") (unit 1)
         )
       )
     )
@@ -1677,7 +1676,7 @@
   (symbol (lib_id "power:GND") (at 178.435 107.315 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e73a4a43-f976-4436-9220-96022e6829fd)
-    (property "Reference" "#PWR091" (at 178.435 113.665 0)
+    (property "Reference" "#PWR089" (at 178.435 113.665 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 178.435 112.395 0)
@@ -1693,7 +1692,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/0bf0a737-8514-45c4-bf4d-e1080d8b8831"
-          (reference "#PWR091") (unit 1)
+          (reference "#PWR089") (unit 1)
         )
       )
     )

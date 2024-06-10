@@ -956,7 +956,7 @@
   (symbol (lib_id "power:GND") (at 250.825 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 01d6d95d-56db-4c66-85a0-36e88a8f7ad1)
-    (property "Reference" "#PWR084" (at 250.825 88.9 0)
+    (property "Reference" "#PWR082" (at 250.825 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 250.825 87.63 0)
@@ -972,7 +972,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/cb744824-cbe5-4873-97e4-b99a3d465da5"
-          (reference "#PWR084") (unit 1)
+          (reference "#PWR082") (unit 1)
         )
       )
     )
@@ -981,7 +981,7 @@
   (symbol (lib_id "power:GND") (at 44.45 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0604deb3-f076-4631-b5ac-f07cc2d0d63f)
-    (property "Reference" "#PWR060" (at 44.45 144.78 0)
+    (property "Reference" "#PWR058" (at 44.45 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 44.45 142.875 0)
@@ -997,7 +997,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/cb744824-cbe5-4873-97e4-b99a3d465da5"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR058") (unit 1)
         )
       )
     )
@@ -1006,7 +1006,7 @@
   (symbol (lib_id "Logic_LevelTranslator:SN74LV1T34DCK") (at 81.28 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0ea04b06-fae8-4bd4-8121-7200d70c2cca)
-    (property "Reference" "U15" (at 92.075 120.65 0)
+    (property "Reference" "U14" (at 92.075 120.65 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SN74LV1T34DCK" (at 92.075 123.19 0)
@@ -1026,7 +1026,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/cb744824-cbe5-4873-97e4-b99a3d465da5"
-          (reference "U15") (unit 1)
+          (reference "U14") (unit 1)
         )
       )
     )
@@ -1035,7 +1035,7 @@
   (symbol (lib_id "power:+3V3") (at 44.45 94.615 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 15cc6da0-04e5-4ece-a531-6f3dcc1dc0b7)
-    (property "Reference" "#PWR057" (at 44.45 98.425 0)
+    (property "Reference" "#PWR055" (at 44.45 98.425 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 44.45 89.535 0)
@@ -1051,7 +1051,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/cb744824-cbe5-4873-97e4-b99a3d465da5"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR055") (unit 1)
         )
       )
     )
@@ -1060,7 +1060,7 @@
   (symbol (lib_id "power:+3V3") (at 81.28 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 161d13a1-7504-45c1-96a4-d0bb81e430c7)
-    (property "Reference" "#PWR061" (at 81.28 41.91 0)
+    (property "Reference" "#PWR059" (at 81.28 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 81.28 33.02 0)
@@ -1076,7 +1076,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/cb744824-cbe5-4873-97e4-b99a3d465da5"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR059") (unit 1)
         )
       )
     )
@@ -1111,7 +1111,7 @@
   (symbol (lib_id "Logic_LevelTranslator:SN74LV1T34DCK") (at 44.45 102.235 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 16da56b1-f484-4ead-9bf4-4aa1148de4d2)
-    (property "Reference" "U10" (at 55.245 92.075 0)
+    (property "Reference" "U9" (at 55.245 92.075 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SN74LV1T34DCK" (at 55.245 94.615 0)
@@ -1131,7 +1131,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/cb744824-cbe5-4873-97e4-b99a3d465da5"
-          (reference "U10") (unit 1)
+          (reference "U9") (unit 1)
         )
       )
     )
@@ -1166,7 +1166,7 @@
   (symbol (lib_id "power:GND") (at 44.45 109.855 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1f6007e3-a823-43cf-96d0-0526650b30cf)
-    (property "Reference" "#PWR058" (at 44.45 116.205 0)
+    (property "Reference" "#PWR056" (at 44.45 116.205 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 44.45 114.3 0)
@@ -1182,7 +1182,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/cb744824-cbe5-4873-97e4-b99a3d465da5"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR056") (unit 1)
         )
       )
     )
@@ -1191,7 +1191,7 @@
   (symbol (lib_id "power:GND") (at 81.28 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 242457a6-8535-4c89-9490-6b67487e50bb)
-    (property "Reference" "#PWR068" (at 81.28 144.78 0)
+    (property "Reference" "#PWR066" (at 81.28 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 81.28 142.875 0)
@@ -1207,7 +1207,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/cb744824-cbe5-4873-97e4-b99a3d465da5"
-          (reference "#PWR068") (unit 1)
+          (reference "#PWR066") (unit 1)
         )
       )
     )
@@ -1242,7 +1242,7 @@
   (symbol (lib_id "power:GND") (at 120.65 109.855 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2d20957f-3755-4240-870e-48ae7c27ef39)
-    (property "Reference" "#PWR074" (at 120.65 116.205 0)
+    (property "Reference" "#PWR072" (at 120.65 116.205 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 120.65 114.3 0)
@@ -1258,7 +1258,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/cb744824-cbe5-4873-97e4-b99a3d465da5"
-          (reference "#PWR074") (unit 1)
+          (reference "#PWR072") (unit 1)
         )
       )
     )
@@ -1267,7 +1267,7 @@
   (symbol (lib_id "power:GND") (at 81.28 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2f96a280-1ee2-4b4f-9955-4a27c03a5590)
-    (property "Reference" "#PWR062" (at 81.28 59.69 0)
+    (property "Reference" "#PWR060" (at 81.28 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 81.28 57.785 0)
@@ -1283,7 +1283,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/cb744824-cbe5-4873-97e4-b99a3d465da5"
-          (reference "#PWR062") (unit 1)
+          (reference "#PWR060") (unit 1)
         )
       )
     )
@@ -1347,7 +1347,7 @@
   (symbol (lib_id "power:+3V3") (at 198.755 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3bcea824-4769-4de4-81d7-ff5cb90a5c75)
-    (property "Reference" "#PWR078" (at 198.755 62.23 0)
+    (property "Reference" "#PWR076" (at 198.755 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 198.755 53.34 0)
@@ -1363,7 +1363,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/cb744824-cbe5-4873-97e4-b99a3d465da5"
-          (reference "#PWR078") (unit 1)
+          (reference "#PWR076") (unit 1)
         )
       )
     )
@@ -1372,7 +1372,7 @@
   (symbol (lib_id "Logic_LevelTranslator:SN74LV1T34DCK") (at 120.65 102.235 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3f8effe5-1bc1-4ecf-9370-44c93068a4c1)
-    (property "Reference" "U18" (at 131.445 92.075 0)
+    (property "Reference" "U17" (at 131.445 92.075 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SN74LV1T34DCK" (at 131.445 94.615 0)
@@ -1392,7 +1392,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/cb744824-cbe5-4873-97e4-b99a3d465da5"
-          (reference "U18") (unit 1)
+          (reference "U17") (unit 1)
         )
       )
     )
@@ -1427,7 +1427,7 @@
   (symbol (lib_id "power:+3V3") (at 198.755 85.725 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 432a658c-1e72-4b2e-984e-e86cc2f99747)
-    (property "Reference" "#PWR079" (at 198.755 89.535 0)
+    (property "Reference" "#PWR077" (at 198.755 89.535 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 198.755 80.645 0)
@@ -1443,7 +1443,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/cb744824-cbe5-4873-97e4-b99a3d465da5"
-          (reference "#PWR079") (unit 1)
+          (reference "#PWR077") (unit 1)
         )
       )
     )
@@ -1452,7 +1452,7 @@
   (symbol (lib_id "power:+3V3") (at 198.755 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 44560c61-eb83-484a-89b9-3c8c8415a0c5)
-    (property "Reference" "#PWR080" (at 198.755 113.03 0)
+    (property "Reference" "#PWR078" (at 198.755 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 198.755 104.14 0)
@@ -1468,7 +1468,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/cb744824-cbe5-4873-97e4-b99a3d465da5"
-          (reference "#PWR080") (unit 1)
+          (reference "#PWR078") (unit 1)
         )
       )
     )
@@ -1504,7 +1504,7 @@
   (symbol (lib_id "power:GND") (at 231.775 137.795 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5c4e74a2-5a24-4a15-aa60-3af267aec1f2)
-    (property "Reference" "#PWR083" (at 231.775 144.145 0)
+    (property "Reference" "#PWR081" (at 231.775 144.145 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 231.775 142.24 0)
@@ -1520,7 +1520,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/cb744824-cbe5-4873-97e4-b99a3d465da5"
-          (reference "#PWR083") (unit 1)
+          (reference "#PWR081") (unit 1)
         )
       )
     )
@@ -1529,7 +1529,7 @@
   (symbol (lib_id "power:+3V3") (at 120.015 122.555 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 669b03b6-2246-497d-9363-a2845b16127c)
-    (property "Reference" "#PWR069" (at 120.015 126.365 0)
+    (property "Reference" "#PWR067" (at 120.015 126.365 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 120.015 117.475 0)
@@ -1545,7 +1545,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/cb744824-cbe5-4873-97e4-b99a3d465da5"
-          (reference "#PWR069") (unit 1)
+          (reference "#PWR067") (unit 1)
         )
       )
     )
@@ -1554,7 +1554,7 @@
   (symbol (lib_id "power:+3V3") (at 120.65 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6d35e455-4d23-49e7-b82b-753eb6d2005e)
-    (property "Reference" "#PWR071" (at 120.65 69.85 0)
+    (property "Reference" "#PWR069" (at 120.65 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 120.65 60.96 0)
@@ -1570,7 +1570,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/cb744824-cbe5-4873-97e4-b99a3d465da5"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR069") (unit 1)
         )
       )
     )
@@ -1579,7 +1579,7 @@
   (symbol (lib_id "1_28_touch_lcd:1.28LCD_TP") (at 242.57 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7148fed3-b026-4e06-961a-730bbca2dac7)
-    (property "Reference" "U19" (at 252.73 116.84 0)
+    (property "Reference" "U18" (at 252.73 116.84 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 240.665 99.695 0)
@@ -1609,7 +1609,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/cb744824-cbe5-4873-97e4-b99a3d465da5"
-          (reference "U19") (unit 1)
+          (reference "U18") (unit 1)
         )
       )
     )
@@ -1644,7 +1644,7 @@
   (symbol (lib_id "power:+3V3") (at 44.45 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 760268c7-8a57-4002-b403-2e0e2ad04db2)
-    (property "Reference" "#PWR059" (at 44.45 127 0)
+    (property "Reference" "#PWR057" (at 44.45 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 44.45 118.11 0)
@@ -1660,7 +1660,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/cb744824-cbe5-4873-97e4-b99a3d465da5"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR057") (unit 1)
         )
       )
     )
@@ -1669,7 +1669,7 @@
   (symbol (lib_id "power:+1V8") (at 176.53 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 76aece62-f157-40e1-a6e6-beb8057a21ca)
-    (property "Reference" "#PWR077" (at 176.53 63.5 0)
+    (property "Reference" "#PWR075" (at 176.53 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 176.53 54.61 0)
@@ -1685,7 +1685,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/cb744824-cbe5-4873-97e4-b99a3d465da5"
-          (reference "#PWR077") (unit 1)
+          (reference "#PWR075") (unit 1)
         )
       )
     )
@@ -1720,7 +1720,7 @@
   (symbol (lib_id "power:GND") (at 81.28 109.855 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8224d1ea-a727-4b36-a9e6-c9acfc6cdd00)
-    (property "Reference" "#PWR066" (at 81.28 116.205 0)
+    (property "Reference" "#PWR064" (at 81.28 116.205 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 81.28 114.3 0)
@@ -1736,7 +1736,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/cb744824-cbe5-4873-97e4-b99a3d465da5"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR064") (unit 1)
         )
       )
     )
@@ -1745,7 +1745,7 @@
   (symbol (lib_id "power:+3V3") (at 81.28 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9132514c-12e0-4b82-9a8a-e8b79260ead7)
-    (property "Reference" "#PWR067" (at 81.28 127 0)
+    (property "Reference" "#PWR065" (at 81.28 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 81.28 118.11 0)
@@ -1761,7 +1761,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/cb744824-cbe5-4873-97e4-b99a3d465da5"
-          (reference "#PWR067") (unit 1)
+          (reference "#PWR065") (unit 1)
         )
       )
     )
@@ -1770,7 +1770,7 @@
   (symbol (lib_id "Logic_LevelTranslator:SN74LV1T34DCK") (at 81.28 74.295 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 961f94cd-59a1-45c4-9536-13205413f2ae)
-    (property "Reference" "U13" (at 92.075 64.135 0)
+    (property "Reference" "U12" (at 92.075 64.135 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SN74LV1T34DCK" (at 92.075 66.675 0)
@@ -1790,7 +1790,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/cb744824-cbe5-4873-97e4-b99a3d465da5"
-          (reference "U13") (unit 1)
+          (reference "U12") (unit 1)
         )
       )
     )
@@ -1799,7 +1799,7 @@
   (symbol (lib_id "power:+3V3") (at 120.65 94.615 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 97e14d94-dc7b-47c0-ad0b-061c624ca11a)
-    (property "Reference" "#PWR073" (at 120.65 98.425 0)
+    (property "Reference" "#PWR071" (at 120.65 98.425 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 120.65 89.535 0)
@@ -1815,7 +1815,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/cb744824-cbe5-4873-97e4-b99a3d465da5"
-          (reference "#PWR073") (unit 1)
+          (reference "#PWR071") (unit 1)
         )
       )
     )
@@ -1850,7 +1850,7 @@
   (symbol (lib_id "power:+1V8") (at 175.895 108.585 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9eefbf0c-9990-45cd-9b6b-76cc4af67232)
-    (property "Reference" "#PWR076" (at 175.895 112.395 0)
+    (property "Reference" "#PWR074" (at 175.895 112.395 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 175.895 103.505 0)
@@ -1866,7 +1866,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/cb744824-cbe5-4873-97e4-b99a3d465da5"
-          (reference "#PWR076") (unit 1)
+          (reference "#PWR074") (unit 1)
         )
       )
     )
@@ -1926,7 +1926,7 @@
   (symbol (lib_id "power:+1V8") (at 175.895 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bcc682ba-e919-411c-a363-4eb04269939d)
-    (property "Reference" "#PWR075" (at 175.895 88.9 0)
+    (property "Reference" "#PWR073" (at 175.895 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 175.895 80.01 0)
@@ -1942,7 +1942,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/cb744824-cbe5-4873-97e4-b99a3d465da5"
-          (reference "#PWR075") (unit 1)
+          (reference "#PWR073") (unit 1)
         )
       )
     )
@@ -1951,7 +1951,7 @@
   (symbol (lib_id "power:GND") (at 120.015 137.795 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c45b15e8-80d8-41c9-b921-dcf30167201f)
-    (property "Reference" "#PWR070" (at 120.015 144.145 0)
+    (property "Reference" "#PWR068" (at 120.015 144.145 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 120.015 142.24 0)
@@ -1967,7 +1967,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/cb744824-cbe5-4873-97e4-b99a3d465da5"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR068") (unit 1)
         )
       )
     )
@@ -1976,7 +1976,7 @@
   (symbol (lib_id "power:+3V3") (at 81.28 94.615 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c4f997e6-6897-4f45-8359-661dd16cf3b1)
-    (property "Reference" "#PWR065" (at 81.28 98.425 0)
+    (property "Reference" "#PWR063" (at 81.28 98.425 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 81.28 89.535 0)
@@ -1992,7 +1992,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/cb744824-cbe5-4873-97e4-b99a3d465da5"
-          (reference "#PWR065") (unit 1)
+          (reference "#PWR063") (unit 1)
         )
       )
     )
@@ -2001,7 +2001,7 @@
   (symbol (lib_id "power:GND") (at 81.28 81.915 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c9425828-58a3-4f7a-b559-1fddf2864bf4)
-    (property "Reference" "#PWR064" (at 81.28 88.265 0)
+    (property "Reference" "#PWR062" (at 81.28 88.265 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 81.28 86.36 0)
@@ -2017,7 +2017,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/cb744824-cbe5-4873-97e4-b99a3d465da5"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR062") (unit 1)
         )
       )
     )
@@ -2052,7 +2052,7 @@
   (symbol (lib_id "power:+3V3") (at 219.71 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ce288faf-19be-4490-9a85-5e3f0f4813ce)
-    (property "Reference" "#PWR081" (at 219.71 100.33 0)
+    (property "Reference" "#PWR079" (at 219.71 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 219.71 91.44 0)
@@ -2068,7 +2068,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/cb744824-cbe5-4873-97e4-b99a3d465da5"
-          (reference "#PWR081") (unit 1)
+          (reference "#PWR079") (unit 1)
         )
       )
     )
@@ -2103,7 +2103,7 @@
   (symbol (lib_id "Logic_LevelTranslator:SN74LV1T34DCK") (at 120.015 130.175 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d699c4c3-2845-4907-b3e3-5135625393aa)
-    (property "Reference" "U16" (at 130.81 120.015 0)
+    (property "Reference" "U15" (at 130.81 120.015 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SN74LV1T34DCK" (at 130.81 122.555 0)
@@ -2123,7 +2123,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/cb744824-cbe5-4873-97e4-b99a3d465da5"
-          (reference "U16") (unit 1)
+          (reference "U15") (unit 1)
         )
       )
     )
@@ -2132,7 +2132,7 @@
   (symbol (lib_id "power:GND") (at 229.235 95.885 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d9d77409-a607-41fc-aa26-ea4b92aa26fc)
-    (property "Reference" "#PWR082" (at 229.235 89.535 0)
+    (property "Reference" "#PWR080" (at 229.235 89.535 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 229.235 91.44 0)
@@ -2148,7 +2148,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/cb744824-cbe5-4873-97e4-b99a3d465da5"
-          (reference "#PWR082") (unit 1)
+          (reference "#PWR080") (unit 1)
         )
       )
     )
@@ -2157,7 +2157,7 @@
   (symbol (lib_id "power:GND") (at 120.65 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid de172c52-00a7-4ffb-9bf6-4e18e1228098)
-    (property "Reference" "#PWR072" (at 120.65 87.63 0)
+    (property "Reference" "#PWR070" (at 120.65 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 120.65 85.725 0)
@@ -2173,7 +2173,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/cb744824-cbe5-4873-97e4-b99a3d465da5"
-          (reference "#PWR072") (unit 1)
+          (reference "#PWR070") (unit 1)
         )
       )
     )
@@ -2182,7 +2182,7 @@
   (symbol (lib_id "Logic_LevelTranslator:SN74LV1T34DCK") (at 120.65 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eb61ac39-ff49-46ad-8f86-8a4b239deaaa)
-    (property "Reference" "U17" (at 131.445 63.5 0)
+    (property "Reference" "U16" (at 131.445 63.5 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SN74LV1T34DCK" (at 131.445 66.04 0)
@@ -2202,7 +2202,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/cb744824-cbe5-4873-97e4-b99a3d465da5"
-          (reference "U17") (unit 1)
+          (reference "U16") (unit 1)
         )
       )
     )
@@ -2211,7 +2211,7 @@
   (symbol (lib_id "Logic_LevelTranslator:SN74LV1T34DCK") (at 44.45 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ef12dfb8-5e8f-43fc-9187-3b07138c00d7)
-    (property "Reference" "U11" (at 55.245 120.65 0)
+    (property "Reference" "U10" (at 55.245 120.65 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SN74LV1T34DCK" (at 55.245 123.19 0)
@@ -2231,7 +2231,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/cb744824-cbe5-4873-97e4-b99a3d465da5"
-          (reference "U11") (unit 1)
+          (reference "U10") (unit 1)
         )
       )
     )
@@ -2240,7 +2240,7 @@
   (symbol (lib_id "Logic_LevelTranslator:SN74LV1T34DCK") (at 81.28 102.235 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ef3998fe-d55f-42b4-bb9b-0c72013b6ffc)
-    (property "Reference" "U14" (at 92.075 92.075 0)
+    (property "Reference" "U13" (at 92.075 92.075 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SN74LV1T34DCK" (at 92.075 94.615 0)
@@ -2260,7 +2260,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/cb744824-cbe5-4873-97e4-b99a3d465da5"
-          (reference "U14") (unit 1)
+          (reference "U13") (unit 1)
         )
       )
     )
@@ -2269,7 +2269,7 @@
   (symbol (lib_id "power:+3V3") (at 81.28 66.675 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f9f5416d-81ed-444a-874e-378e01e3f7ae)
-    (property "Reference" "#PWR063" (at 81.28 70.485 0)
+    (property "Reference" "#PWR061" (at 81.28 70.485 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 81.28 61.595 0)
@@ -2285,7 +2285,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/cb744824-cbe5-4873-97e4-b99a3d465da5"
-          (reference "#PWR063") (unit 1)
+          (reference "#PWR061") (unit 1)
         )
       )
     )
@@ -2294,7 +2294,7 @@
   (symbol (lib_id "Logic_LevelTranslator:SN74LV1T34DCK") (at 81.28 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fb40f889-946a-4750-83f6-6010637abbc9)
-    (property "Reference" "U12" (at 92.075 35.56 0)
+    (property "Reference" "U11" (at 92.075 35.56 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SN74LV1T34DCK" (at 92.075 38.1 0)
@@ -2314,7 +2314,7 @@
     (instances
       (project "DualWatch"
         (path "/9c47ae17-f150-4290-a1ee-d756173e0f3d/cb744824-cbe5-4873-97e4-b99a3d465da5"
-          (reference "U12") (unit 1)
+          (reference "U11") (unit 1)
         )
       )
     )
