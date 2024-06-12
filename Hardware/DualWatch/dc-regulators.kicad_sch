@@ -2142,7 +2142,7 @@
     (property "Value" "1.5uH" (at 81.28 69.215 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Inductor_SMD:L_Coilcraft_XAL4020-XXX" (at 80.01 67.945 0)
+    (property "Footprint" "Inductor_SMD:L_Murata_DFE201610P" (at 80.01 67.945 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://cdn.ozdisan.com/ETicaret_Dosya/736629_181229.pdf" (at 80.01 67.945 0)
